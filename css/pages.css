@@ -1,6 +1,8 @@
+
 /* adding some styling to my pages */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
     
 }
 a {
@@ -31,14 +33,17 @@ img {
     width: auto;
     height: auto;
     align-items: center;
-    display: flex;
+    display:flex;
+    margin-left:300px;
+    margin-top:20px;
     }
 
 p, li {
     font-size:32px;
     text-wrap:inherit;
-    text-align: left;
+    
     color:black;
+    margin:20px;
 }
 
 
